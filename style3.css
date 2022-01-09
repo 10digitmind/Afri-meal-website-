@@ -1,0 +1,659 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    
+    
+    
+    
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background:rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    min-height: 8vh;
+    
+    
+    
+}
+
+.logo img{
+    align-items: center;
+    width: 100px;
+    
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    text-align: right;
+    
+}
+
+.nav-links li{
+    list-style: none;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    font-family: Cerebri Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: right;
+color: rgba(75, 35, 15, 1);
+
+
+
+
+    
+}
+
+span{
+    font-family: Cerebri Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    
+
+}
+
+
+.burger div{
+    height: 3px;
+	width: 20px;
+	background-color:rgba(46, 46, 46, 1);
+    margin: 3px;
+    transition: all 0.3s ease;
+}
+
+.burger{
+    display: none;
+   
+}
+
+.texts h2{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+
+.texts{
+    background:white;
+}
+.texts p{
+
+    font-family: Cerebri Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: #FAFAFA;
+    margin-top: 120px;
+    display: flex;
+    padding-top: 40px;
+    
+    
+}
+.log{
+    margin-left: 90px;
+}
+.log img{
+    width: 100px;
+   
+}
+
+
+
+
+
+    .log h3{
+        font-family: Cerebri Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #2E2E2E;
+        letter-spacing: 1px;
+        position: relative;
+        top: 10px;
+    }
+
+
+.contact{
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+   
+    margin-left: 30px;
+    padding-left: 80px;
+    
+    
+}
+
+.contact h2{
+    font-family: Cerebri Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+color: #2E2E2E;
+letter-spacing: 1px;
+position: relative;
+top: 20px;
+
+
+}
+
+    .contact h1{
+font-family: Cerebri Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+color: #2E2E2E;
+letter-spacing: 1px;
+
+
+
+    }
+.social{
+    justify-content: space-around;
+    margin-left: 90px;
+    height: 40px;
+    width: 260px;
+    
+
+
+   
+
+}
+    .social img{
+           height: 30px;
+           display: inline-block;
+           padding-left: 40px;
+           
+           
+           
+        
+    }
+
+
+    .terms{
+       width: 300px;
+       height: 150px;
+       
+       margin-left: 120px;
+      
+    }
+
+    .terms ul{
+        display: inline-block;
+        padding: 30px;
+    }
+
+    .terms li{
+        list-style: none;
+        justify-content: space-around;
+        padding: 5px;
+
+       
+    }
+
+    .terms a{
+        text-decoration: none;
+       
+        font-family: Cerebri Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+color: #2E2E2E;
+letter-spacing: 1px;
+       
+       }
+    
+   
+       @media screen and (max-width: 500px){
+           .download{
+               position: relative;
+               top: 65px;
+
+       }
+
+@media screen and (max-width: 768px){
+   body{
+      scroll-behavior: smooth;
+      
+   }
+  
+    nav{
+
+    background: rgba(255, 255, 255, 0.15);
+box-shadow: 0px 2px 8px rgba(46, 46, 46, 0.15);
+backdrop-filter: blur(12px);
+
+   }
+
+   .hero{
+       width: ;
+   }
+   
+    .nav-links{
+        position: absolute;
+        top: 8vh;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        background-color: whitesmoke;
+        align-items: center;
+        border: 5px solid;
+       border-width: 2px;
+       border-color: red;
+       border-radius: none;
+       border-bottom: none;
+       border-left: none;
+       border-bottom: none;
+       border-right: none; 
+
+         transform: translatey(-300px); 
+        transition: transform 0.5s ease-in ;
+
+    }
+
+   
+
+    
+
+    .burger{
+        display: block;
+        cursor: pointer;
+        margin-left: 100px;
+        
+
+        
+
+    }
+
+    .nav-active{
+		transform: translatey(0);
+    }
+
+
+    
+    .hero h2{
+font-family: Cerebri Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 40px;
+margin-top: 50px;
+}
+
+    .hero span{
+font-family: Cerebri Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 40px;
+letter-spacing: 1px;
+
+}
+
+    .hero h3{
+font-family: Cerebri Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 1px;
+padding-top: 30px;
+
+ }
+
+.hero-img{
+width: 400px;
+position: absolute;
+top: 500px;
+
+align-items: center;
+left: 0;
+}
+.country{
+    display: block;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 900px;
+    
+}
+
+.download{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: -70px;
+}
+
+.download-google, .download-apple{
+    width: 152px;
+    height: 55.86px;
+    
+}
+
+.country h1{
+    font-family: Cerebri Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    
+}
+.hero2{
+    height: 30vh;
+    width: 330px;
+    background:linear-gradient(180deg, #F8F8F8 0%, #FFFFFF 100%);
+    margin-top: 675px;
+}
+.rec1{
+    width: 100px;
+}
+.roud-2{
+  position: relative;
+  left: 0px;
+  right: -10px;
+
+}
+.roud-1{
+   
+    position: relative;
+    
+
+}
+ .holding-container {
+    display: inline-block;
+    position: relative;
+    
+
+}
+ .holding-container img{
+    position: relative;
+    top :-10px;
+    
+    
+
+}
+
+
+.holding-container2 img{
+    position: relative;
+    top: -7px;
+
+
+}
+
+.holding-container3 img{
+    position: relative;
+    top: 9px;
+}
+.hero3{
+    padding: 0px;
+    margin-top: -89px;
+    width: 100%;
+    
+    
+    
+}
+
+.man{
+    display: inline-block;
+    width: 100%;
+    height: 650px;
+    margin-top: -130px;
+    padding: 0;
+    margin-left: 0px;
+    
+   
+}
+.man img{
+width:328px;
+height: 224px;
+position: relative;
+left: 50px;
+
+display: block;
+
+
+}
+
+.man h2{
+    font-family: Cerebri Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    
+    position: relative;
+    width: 600px;
+    height: 48px;
+    
+
+    
+    }
+    .man h3{
+    font-family: Cerebri Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    width: 328px;
+    height: 48px;
+    
+    
+    
+    
+    
+    }
+    
+    .man ul{
+        position: relative;
+        left: 50px;
+        width: 328px;
+    height: 224px;
+    padding-left: 0px;
+    
+    } 
+    
+    .man li button{
+        background: #EF4623;
+        width: 152px;
+        height: 40px;
+        Top: 377px;
+        left: 732px;
+        border: none;
+        border-radius: 4px;
+        margin-top: 40px;
+       
+    
+        }
+    
+
+    
+.man li button{
+    background: #EF4623;
+    width: 152px;
+    height: 40px;
+    Top: 377px;
+    left: 732px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 40px;
+    
+
+    }
+
+ 
+    .phone-container{
+        width: 430px;
+        height: 1100px;
+       background: linear-gradient(96.99deg, #EF4623 19.83%, #D7212A 113.18%);;
+       align-items: center;
+       margin-left: 0;
+        
+        
+    }
+
+    .hero4{
+         margin-top: 130px;
+         width: 430px;
+
+    }
+    
+    .food{
+        align-self: center;
+        display: inline-block;
+        position: relative;
+        top: -80px;
+        left:115px;
+
+    }
+
+    .phone{
+        align-items: center;
+        display: inline-block;
+        position: relative;
+        left: 60px;
+        top: -90px;
+        width: 328px;
+height: 600px
+    }
+
+
+    .text{
+        margin-top: 400px;
+        margin-left: 60px;
+    }
+    .text h2{
+        font-family: Cerebri Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 32px;
+color: rgba(255, 255, 255, 1);
+        
+    }
+
+    .text h3{
+        font-family: Cerebri Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: rgba(255, 255, 255, 1);
+margin-top: 30px;
+    }
+
+    .down{
+        display: flex;
+        justify-content: space-around;
+  
+    }
+
+    .down img{
+        width: 152px;
+        height: 55.86px;
+        margin-top: 60px;
+        margin-left: -35px;
+    }
+
+    .footer{
+        display: inline-block;
+        height: 500px;
+        width: 430px;
+        
+        
+    }
+
+    .log{
+        margin: 0px;
+        
+    }
+    .log img{
+        width: 130px;
+        position: relative;
+        left: 20px;
+        
+    }
+
+    .contact{
+        margin-left: -80px;
+        display: inline-block;
+        padding-top: 30px;
+        position: relative;
+        left: 20px;
+        
+        
+    }
+
+    .terms{
+        margin-left: 0px;
+        margin-top: -25px;
+        position: relative;
+        left: 18px;
+        
+    }
+
+    .social{
+        margin-left: -35px;
+        position: relative;
+        top: 20px;
+        left: 18px;
+        
+    }
+    .log h3{
+        position: relative;
+        top: 380px;
+        left: 20px;
+        width: 330px;
+        
+    }
+
+    .contact h1{
+        position: relative;
+        top: -20px;
+        text-decoration: none;
+    }
+
+    
+}
+    
+
